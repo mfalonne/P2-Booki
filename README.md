@@ -30,3 +30,7 @@ voir ci-dessous l'image de la maquette
 ### **Editeur de code utiliser**
 
 L'intégration est fai sur l'éditeur [Visual Studio Code](https://code.visualstudio.com/)
+
+### **Accès direct au site**
+
+[Booki](https://mfalonne.github.io/P2-Booki/)
