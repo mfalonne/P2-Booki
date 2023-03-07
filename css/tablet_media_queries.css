@@ -1,0 +1,108 @@
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    /*body*/
+    /*body{
+        margin: 20px auto;
+        padding: 0 20px;
+    }*/
+    main,.logo-nav{
+        padding: 0 10px;
+        margin: 0 20px;
+    }
+    header{
+        margin-top: 30px;
+    }
+    .logo-nav{
+        padding: 10px 10px;
+    }
+    /*main*/
+    .initial .fas{
+        display: inline;
+    }
+    .initial .rechercher{
+        display: none;
+    }
+    button{
+        padding:13px 20px;
+        font-size: 20px;
+    }
+    /*.filtres */
+    .filtres{
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .filtres-list:hover{
+        background-color: #DEEBFF; 
+        cursor: pointer;  
+        transform: scale(1.05);
+    }
+    /*hebergements*/
+    .hebergements-populaires{
+        flex-wrap: wrap;   
+    }
+    #Hebergements{
+        margin-top: 50px;
+        flex-basis: 100%;
+        height: 730px;
+    }
+    .hebergements-list{
+        flex-basis: 100%;
+        margin:  0 auto 0 ;
+        margin-bottom: 20px;
+    }
+    .hebergements-list a{
+        flex-basis: 45%;
+        height: 180px;
+        margin: 10px 15px;
+        padding: 10px;
+    }
+   
+    /*plus-populaires*/
+    .h2-icone h2{
+        margin-right: 50%;
+    }
+    .plus-populaires{
+        flex-basis: 100%;
+        order: -1;
+    }
+    .populaires-list a{
+        flex-basis: 90%;
+    }
+    .populaires-list a img{
+        width: 35%;
+        height: 150px;
+    }
+    .description{
+        flex-basis: 69%;
+    }
+    /*activité à marseille*/
+    #activite{
+        margin-top: 40px;    
+    }
+    .activite-list{   
+        border-radius: 15px;
+        height: 630px;
+    }
+    .activite-list a{ 
+        border-radius: 15px;
+        flex-basis: 25%;
+        margin: 0 auto 5px;
+    }
+    .cart-un,#medium-cart, #medium1-cart,.medium2-cart{
+        width: 43%;
+    }
+    .cart-un img,#medium-cart img, #medium1-cart img,.medium2-cart img{
+        height: 115px;
+    }
+    .cart-un h4,.medium2-cart h4{
+        padding-left: 15px;
+        margin-top: 10px;
+    }      
+    
+    /*footer*/    
+    .footer-list{
+        flex-basis: 100%;
+        padding-left: 0px;
+        justify-content: space-around; 
+    }
+    }
